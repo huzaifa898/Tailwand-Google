@@ -18,6 +18,12 @@ module.exports = {
         sans: ['Graphik', 'sans-serif'],
         serif: ['Merriweather', 'serif'],
       },
+      screens: {
+        sm: '480px',
+        md: '768px',
+        lg: '976px',
+        xl: '1440px',
+      },
       extend: {},
     },
     plugins: [],
