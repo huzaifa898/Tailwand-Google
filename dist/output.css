@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: currentColor;
+  border-color: #e5e7eb;
   /* 2 */
 }
 
@@ -44,7 +44,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Graphik, sans-serif;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -577,9 +577,24 @@ video {
   border-width: 4px;
 }
 
-.bg-blue {
+.border-green-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(74 222 128 / var(--tw-border-opacity));
+}
+
+.bg-blue-800 {
   --tw-bg-opacity: 1;
-  background-color: rgb(31 182 255 / var(--tw-bg-opacity));
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+}
+
+.bg-purple-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 232 255 / var(--tw-bg-opacity));
+}
+
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
 .text-left {
@@ -599,11 +614,11 @@ video {
 }
 
 .font-sans {
-  font-family: Graphik, sans-serif;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .font-serif {
-  font-family: Merriweather, serif;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-2xl {
@@ -754,9 +769,54 @@ video {
   letter-spacing: 0.025em;
 }
 
-.text-green {
+.text-blue-900 {
   --tw-text-opacity: 1;
-  color: rgb(19 206 102 / var(--tw-text-opacity));
+  color: rgb(30 58 138 / var(--tw-text-opacity));
+}
+
+.text-slate-900 {
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.overline {
+  text-decoration-line: overline;
+}
+
+.line-through {
+  text-decoration-line: line-through;
+}
+
+.no-underline {
+  text-decoration-line: none;
+}
+
+.decoration-indigo-500 {
+  text-decoration-color: #6366f1;
+}
+
+.decoration-pink-500 {
+  text-decoration-color: #ec4899;
+}
+
+.decoration-sky-500 {
+  text-decoration-color: #0ea5e9;
+}
+
+.decoration-indigo-500\/30 {
+  text-decoration-color: rgb(99 102 241 / 0.3);
+}
+
+.decoration-pink-500\/30 {
+  text-decoration-color: rgb(236 72 153 / 0.3);
+}
+
+.decoration-sky-500\/30 {
+  text-decoration-color: rgb(14 165 233 / 0.3);
 }
 
 .antialiased {
@@ -770,7 +830,7 @@ video {
 }
 
 .hover\:font-serif:hover {
-  font-family: Merriweather, serif;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .hover\:text-base:hover {
@@ -780,7 +840,7 @@ video {
 
 @media (min-width: 768px) {
   .md\:font-serif {
-    font-family: Merriweather, serif;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   .md\:text-base {
@@ -789,7 +849,7 @@ video {
   }
 }
 
-@media (min-width: 976px) {
+@media (min-width: 1024px) {
   .lg\:line-clamp-none {
     overflow: visible;
     display: block;
