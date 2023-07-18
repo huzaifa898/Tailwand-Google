@@ -577,6 +577,16 @@ video {
   overflow-x: auto;
 }
 
+.hyphens-none {
+  -webkit-hyphens: none;
+          hyphens: none;
+}
+
+.hyphens-manual {
+  -webkit-hyphens: manual;
+          hyphens: manual;
+}
+
 .whitespace-normal {
   white-space: normal;
 }
