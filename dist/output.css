@@ -545,6 +545,10 @@ video {
   -webkit-line-clamp: 3;
 }
 
+.list-image-\[url\(checkmark\.png\)\] {
+  list-style-image: url(checkmark.png);
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
