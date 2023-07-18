@@ -582,8 +582,20 @@ video {
   background-color: rgb(31 182 255 / var(--tw-bg-opacity));
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-end {
+  text-align: end;
 }
 
 .font-sans {
