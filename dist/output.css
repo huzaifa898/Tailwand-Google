@@ -594,6 +594,16 @@ video {
   line-height: 1.75rem;
 }
 
+.text-base\/6 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-base\/loose {
+  font-size: 1rem;
+  line-height: 2;
+}
+
 .font-thin {
   font-weight: 100;
 }
