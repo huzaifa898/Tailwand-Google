@@ -608,9 +608,27 @@ video {
   font-weight: 100;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.not-italic {
+  font-style: normal;
+}
+
 .text-green {
   --tw-text-opacity: 1;
   color: rgb(19 206 102 / var(--tw-text-opacity));
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.subpixel-antialiased {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 
 .hover\:font-serif:hover {
@@ -625,6 +643,11 @@ video {
 @media (min-width: 768px) {
   .md\:font-serif {
     font-family: Merriweather, serif;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
