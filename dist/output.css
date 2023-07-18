@@ -551,6 +551,14 @@ video {
   text-align: center;
 }
 
+.font-sans {
+  font-family: Graphik, sans-serif;
+}
+
+.font-serif {
+  font-family: Merriweather, serif;
+}
+
 .text-9xl {
   font-size: 8rem;
   line-height: 1;
@@ -561,9 +569,23 @@ video {
   line-height: 1rem;
 }
 
+.font-thin {
+  font-weight: 100;
+}
+
 .text-green {
   --tw-text-opacity: 1;
   color: rgb(19 206 102 / var(--tw-text-opacity));
+}
+
+.hover\:font-serif:hover {
+  font-family: Merriweather, serif;
+}
+
+@media (min-width: 768px) {
+  .md\:font-serif {
+    font-family: Merriweather, serif;
+  }
 }
 
 @media (min-width: 976px) {
