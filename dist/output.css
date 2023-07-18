@@ -545,6 +545,14 @@ video {
   -webkit-line-clamp: 3;
 }
 
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-outside {
+  list-style-position: outside;
+}
+
 .list-image-\[url\(checkmark\.png\)\] {
   list-style-image: url(checkmark.png);
 }
