@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Tailwind Google</title>
 </head>
-
-<>
+<body>
     <!--Colors concept in Tailwind-->
     <p class="text-slate-900 bg-slate-500">Lorem ipsum dolor sit amet consectetur.</p>
     <p class="border-4 border-green-400">Lorem ipsum dolor sit amet.</p>
@@ -350,56 +349,123 @@
                 <div class="ps-16 ...">ps-8</div>
                 <div class="pe-16 ...">pe-8</div>
                 <div> -->
-                    <!--Hover, focus, and other states-->
+    <!--Hover, focus, and other states-->
 
-                    <!-- <div class="py-4 hover:py-8">
+    <!-- <div class="py-4 hover:py-8">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ratione.</p>
                     </div> -->
 
-                    <!--Breakpoints and media queries-->
-                    <!-- <div class="py-4 md:py-8">
+    <!--Breakpoints and media queries-->
+    <!-- <div class="py-4 md:py-8">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, voluptates.</p>
                     </div> -->
-                    <!--Margin-->
-                    <!--Add margin to a single side-->
-                    <!-- <div class="mt-6 ...">mt-6</div>
+    <!--Margin-->
+    <!--Add margin to a single side-->
+    <!-- <div class="mt-6 ...">mt-6</div>
                     <div class="mr-4 ...">mr-4</div>
                     <div class="mb-8 ...">mb-8</div>
                     <div class="ml-2 ...">ml-2</div> -->
-                    <!--Using negative values-->
-                    <!-- <div class="w-36 h-16 bg-sky-400 opacity-20 ..."></div>
+    <!--Using negative values-->
+    <!-- <div class="w-36 h-16 bg-sky-400 opacity-20 ..."></div>
                     <div class="-mt-8 bg-sky-300 ...">-mt-8</div> -->
 
-          <!-- Padding and margin example-->          
-          <div class="w-64 h-64  bg-slate-600 mx-16 my-16">
-            <p class="px-16 py-16">Lorem ipsum dolor sit amet.</p>
+    <!-- Padding and margin example-->
+    <div class="w-64 h-64  bg-slate-600 mx-16 my-16">
+        <p class="px-16 py-16">Lorem ipsum dolor sit amet.</p>
 
-          </div>
+    </div>
 
-          <!--Space between-->
-          <!--Add horizontal space between children-->
-          <div class="flex space-x-4 ...">
-            <div>01</div>
-            <div>02</div>
-            <div>03</div>
-          </div
-
-
-        <br>
+    <!--Space between-->
+    <!--Add horizontal space between children-->
+    <div class="flex space-x-4 ...">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+    </div>
 
 
-            <!--Add vertical space between children-->
-            <div class="flex flex-col space-y-4 ...">
-                <div>01</div>
-                <div>02</div>
-                <div>03</div>
-              </div>
-              <!--Reversing children order-->
-              <div class="flex flex-row-reverse space-x-4 space-x-reverse ...">
-                <div>01</div>
-                <div>02</div>
-                <div>03</div>
-              </div>
-</body>
+    <!--Add vertical space between children-->
+    <div class="flex flex-col space-y-4 ...">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+    </div>
+    <!--Reversing children order-->
+    <div class="flex flex-row-reverse space-x-4 space-x-reverse ...">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+    </div>
+
+
+    <!--Sizing-->
+    <!--width-->
+    <div class="w-96 bg-slate-600 ">1</div>
+    <div class="w-80  bg-slate-600 ">2</div>
+    <div class="w-64  bg-slate-600">3</div>
+    <div class="w-48  bg-slate-600">4</div>
+    <div class="w-40  bg-slate-600">5</div>
+    <div class="w-32  bg-slate-600">6</div>
+    <div class="w-24  bg-slate-600">7</div>
+
+    <!--Percentage widths-->
+    <div class="flex">
+        <div class="w-1/2 bg-gray-600 ">w-1/2</div>
+        <div class="w-1/2  bg-yellow-600 ">w-1/2</div>
+      </div>
+      <div class="flex ">
+        <div class="w-2/5  bg-gray-600">w-2/5</div>
+        <div class="w-3/5  bg-green-600">w-3/5</div>
+      </div>
+      <div class="flex space-x-4">
+        <div class="w-1/3  bg-gray-600">w-1/3</div>
+        <div class="w-2/3  bg-yellow-700-600">w-2/3</div>
+      </div>
+      <div class="flex space-x-4">
+        <div class="w-1/4  bg-gray-600">w-1/4</div>
+        <div class="w-3/4  bg-orange-200-600">w-3/4</div>
+      </div>
+      <div class="flex space-x-4">
+        <div class="w-1/5  bg-gray-600">w-1/5</div>
+        <div class="w-4/5  bg-blue-600">w-4/5</div>
+      </div>
+      <div class="flex space-x-4">
+        <div class="w-1/6  bg-gray-600">w-1/6</div>
+        <div class="w-5/6  bg-pink-600">w-5/6</div>
+      </div>
+      <div class="w-full bg-orange-700">w-full</div>
+      ​
+      <div class="w-screen">
+        <p>lorem10</p>
+      </div>
+      <!--Resetting the width-->
+      <div class="w-full md:w-auto">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quo quos.</p>
+      </div>
+
+      <!--min-width-->
+      <span class="min-w-full ...">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, non impedit. Facilis non suscipit saepe laboriosam quasi vero mollitia ad.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quas mollitia quae aliquid eveniet quo quod ullam laudantium nesciunt ea.
+        </p>
+      </span>
+
+      <!--min width hover concept-->
+      <div class="w-24 min-w-full hover:min-w-0">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <!--max width-->
+      <div class="text-sm max-w-prose ...">
+        <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.</p>
+      </div>
+      
+      <div class="text-base max-w-prose ...">
+        <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.</p>
+      </div>
+      
+      <div class="text-xl max-w-prose ...">
+        <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.</p>
+      </div>
+    </body>
 
 </html>
