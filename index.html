@@ -316,10 +316,50 @@
     <!--hypens-->
     <p class="hyphens-none ...">
         ... Kraftfahrzeug&shy;haftpflichtversicherung is a ...
-      </p>
-      <p class="hyphens-manual ...">
+    </p>
+    <p class="hyphens-manual ...">
         ... Kraftfahrzeug&shy;haftpflichtversicherung is a ...
-      </p>
+    </p>
+
+    <!--Spacing-->
+
+    <!--basic example of padding-->
+    <div class="pl-16">huzaifa</div>
+    <div class="pt-6 ...">pt-6</div>
+    <div class="pr-8 ...">pr-4</div>
+    <div class="pb-8 ...">pb-8</div>
+    <div class="pl-16 ...">pl-2</div>
+
+    <!--Add horizontal padding-->
+
+    <div class="px-8 ...">px-8</div>
+    <!--Add vertical padding-->
+    <div class="py-8 ...">py-8</div>
+
+    <!--Add padding to all sides-->
+    <div class="p-8 ...">p-8</div>
+
+    <!--Using logical properties-->
+
+    <div dir="ltr">
+        <div class="ps-16 ...">ps-8</div>
+        <div class="pe-16 ...">pe-8</div>
+        <div>
+
+            <div dir="rtl">
+                <div class="ps-16 ...">ps-8</div>
+                <div class="pe-16 ...">pe-8</div>
+                <div>
+                    <!--Hover, focus, and other states-->
+
+                    <div class="py-4 hover:py-8">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ratione.</p>
+                    </div>
+
+                    <!--Breakpoints and media queries-->
+                    <div class="py-4 md:py-8">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, voluptates.</p>
+                    </div>
 </body>
 
 </html>
