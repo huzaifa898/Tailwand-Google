@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Tailwind Google</title>
 </head>
+
 <body>
     <!--Colors concept in Tailwind-->
     <p class="text-slate-900 bg-slate-500">Lorem ipsum dolor sit amet consectetur.</p>
@@ -412,60 +413,234 @@
     <div class="flex">
         <div class="w-1/2 bg-gray-600 ">w-1/2</div>
         <div class="w-1/2  bg-yellow-600 ">w-1/2</div>
-      </div>
-      <div class="flex ">
+    </div>
+    <div class="flex ">
         <div class="w-2/5  bg-gray-600">w-2/5</div>
         <div class="w-3/5  bg-green-600">w-3/5</div>
-      </div>
-      <div class="flex space-x-4">
+    </div>
+    <div class="flex space-x-4">
         <div class="w-1/3  bg-gray-600">w-1/3</div>
         <div class="w-2/3  bg-yellow-700-600">w-2/3</div>
-      </div>
-      <div class="flex space-x-4">
+    </div>
+    <div class="flex space-x-4">
         <div class="w-1/4  bg-gray-600">w-1/4</div>
         <div class="w-3/4  bg-orange-200-600">w-3/4</div>
-      </div>
-      <div class="flex space-x-4">
+    </div>
+    <div class="flex space-x-4">
         <div class="w-1/5  bg-gray-600">w-1/5</div>
         <div class="w-4/5  bg-blue-600">w-4/5</div>
-      </div>
-      <div class="flex space-x-4">
+    </div>
+    <div class="flex space-x-4">
         <div class="w-1/6  bg-gray-600">w-1/6</div>
         <div class="w-5/6  bg-pink-600">w-5/6</div>
-      </div>
-      <div class="w-full bg-orange-700">w-full</div>
-      ​
-      <div class="w-screen">
+    </div>
+    <div class="w-full bg-orange-700">w-full</div>
+    ​
+    <div class="w-screen">
         <p>lorem10</p>
-      </div>
-      <!--Resetting the width-->
-      <div class="w-full md:w-auto">
+    </div>
+    <!--Resetting the width-->
+    <div class="w-full md:w-auto">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quo quos.</p>
-      </div>
+    </div>
 
-      <!--min-width-->
-      <span class="min-w-full ...">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, non impedit. Facilis non suscipit saepe laboriosam quasi vero mollitia ad.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quas mollitia quae aliquid eveniet quo quod ullam laudantium nesciunt ea.
+    <!--min-width-->
+    <span class="min-w-full ...">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, non impedit. Facilis non suscipit saepe
+            laboriosam quasi vero mollitia ad.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quas mollitia quae aliquid eveniet quo quod
+            ullam laudantium nesciunt ea.
         </p>
-      </span>
+    </span>
 
-      <!--min width hover concept-->
-      <div class="w-24 min-w-full hover:min-w-0">
+    <!--min width hover concept-->
+    <div class="w-24 min-w-full hover:min-w-0">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <!--max width-->
+    <div class="text-sm max-w-prose ...">
+        <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and
+            sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.
+        </p>
+    </div>
+
+    <div class="text-base max-w-prose ...">
+        <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and
+            sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.
+        </p>
+    </div>
+
+    <div class="text-xl max-w-prose ...">
+        <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and
+            sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.
+        </p>
+    </div>
+
+    <!--height-->
+    <div class="h-96 bg-slate-800 w-5">h-96</div>
+    <div class="h-80  bg-slate-500 w-5">h-80</div>
+    <div class="h-64 bg-slate-100 w-5">h-64</div>
+    <div class="h-48 bg-slate-600 w-5">h-48</div>
+    <div class="h-40  bg-slate-900 w-5">h-40</div>
+    <div class="h-32 bg-gray-950 w-5">h-32</div>
+    <div class="h-24  bg-stone-800 w-5">h-24</div>
+
+
+    <!--Flex-->
+     <div class="flex">
+        <div>main Content</div>
+        <div>Sidebar</div>
+     </div>
+
+     <!--Setting the flex basis-->
+     <div class="flex flex-row bg-slate-600">
+        <div class="basis-1/4">01</div> <!--it will be 25%-->
+        <div class="basis-1/4">02</div>
+        <div class="basis-1/2">03</div>  <!--it will be 50%-->
       </div>
-      <!--max width-->
-      <div class="text-sm max-w-prose ...">
-        <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.</p>
+     <!--hover concept-->
+     <div class="basis-1/3 hover:basis-1/2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, recusandae?</p>
       </div>
-      
-      <div class="text-base max-w-prose ...">
-        <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.</p>
+
+      <!-- briefly dissus flex concept-->
+      <div class="flex flex-wrap gap-4 h-full ">
+      <div class="bg-red-900 text-white h-25 order-2 flex-auto">
+        <p>Flex item 1</p>
       </div>
-      
-      <div class="text-xl max-w-prose ...">
-        <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.</p>
+      <div class="bg-green-900 text-white h-25 order-1 flex-auto">
+        <p>Flex item 2</p>
       </div>
-    </body>
+      <div class="bg-yellow-900 text-white h-25 order-3 flex-auto">
+        <p>Flex item 3</p>
+      </div>
+    </div>
+
+    <!--Flex Row-->
+    <div class="flex flex-row ...">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+      </div>
+      <!--Row reversed-->
+      <div class="flex flex-row-reverse ...">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+      </div>
+      <!--column-->
+      <div class="flex flex-col ...">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+      </div>
+      <!--column reversed-->
+      <div class="flex flex-col-reverse ...">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+      </div>
+      <!--hover concept-->
+      <div class="flex flex-col hover:flex-row">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+      </div>
+      <!--screen break point-->
+      <div class="flex flex-col md:flex-row">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+      </div>
+
+      <!--flex wrap-->
+      <!--Don’t wrap-->
+      <div class="flex flex-nowrap">
+        <div class="bg-red-900 text-white h-25 order-2 ">
+            <p>Flex item 1</p>
+          </div>
+          <div class="bg-green-900 text-white h-25 order-1">
+            <p>Flex item 2</p>
+          </div>
+          <div class="bg-yellow-900 text-white h-25 order-3">
+            <p>Flex item 3</p>
+          </div>
+      </div>
+      <!--Wrap normally-->
+      <div class="flex flex-wrap">
+        <div class="bg-red-900 text-white h-25 order-2 flex-auto">
+            <p>Flex item 1</p>
+          </div>
+          <div class="bg-green-900 text-white h-25 order-1 flex-auto">
+            <p>Flex item 2</p>
+          </div>
+          <div class="bg-yellow-900 text-white h-25 order-3 flex-auto">
+            <p>Flex item 3</p>
+          </div>
+      </div>
+
+      <!--wrap reversed-->
+      <div class="flex flex-wrap-reverse">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+      </div>
+
+      <!--flex grow-->
+      <!--Grow-->
+      <div class="flex ...">
+        <div class="flex-none w-14 h-14 bg-slate-400">
+          01
+        </div>
+        <div class="grow h-14 bg-slate-600">
+          02
+        </div>
+        <div class="flex-none w-14 h-14 bg-slate-700">
+          03
+        </div>
+      </div>
+      <!--Don’t grow-->
+      <div class="flex gap-4">
+        <div class="grow h-14 bg-slate-400">
+          01
+        </div>
+        <div class="grow-0 h-14 bg-slate-500">
+          02
+        </div>
+        <div class="grow h-14 bg-slate-500">
+          03
+        </div>
+      </div>
+      <!--Shrink-->
+      <div class="flex ...">
+        <div class="flex-none w-14 h-14 ...">
+          01
+        </div>
+        <div class="shrink w-64 h-14 ...">
+          02
+        </div>
+        <div class="flex-none w-14 h-14 ...">
+          03
+        </div>
+      </div>
+      <!--Don’t shrink-->
+      <div class="flex ...">
+        <div class="flex-1 h-16 ...">
+          01
+        </div>
+        <div class="shrink-0 h-16 w-32 ...">
+          02
+        </div>
+        <div class="flex-1 h-16 ...">
+          03
+        </div>
+      </div>
+      <!--order-->
+      <div class="flex justify-between ...">
+        <div class="order-last">01</div>
+        <div>02</div>
+        <div>03</div>
+      </div>
+</body>
 
 </html>
