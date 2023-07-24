@@ -6,6 +6,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Tailwind Google</title>
+    <style>
+        #box{
+            border: 1px solid brown;
+            background: goldenrod;
+            width: 80%;
+            height: 300px;
+        }
+        #box1{
+            border: 1px solid firebrick;
+            width: 600px;
+            height: 600px;
+        }
+    </style>
 </head>
 
 <body>
@@ -838,7 +851,24 @@
         <!-- This text has a fixed font size of 24 pixels -->
         This is a paragraph with a fixed font size of 24 pixels (using px).
     </div>
+     <!--what is equilent of 1 rem-->
+     <!--1 rem is equal to base font of system-->
+     <!--in system it is equal to 16px-->
+     <!-- no decmial will be in tailwind css-->
+     <div class="bg-green-900 w-32 h-32">text1</div>
+     <div class="bg-yellow-900 w-1/2">text1</div>
+     <div class="bg-white w-screen">text1</div>
+     <div class="bg-blue-700 w-2/12">text1</div>
 
+
+     <!-- CSS units -->
+
+     <div id="box"></div>
+     <!--realtive example-->
+      <div id="box1">
+        <div id="box"></div>
+      </div> 
+      <!--it will takes the parent widtg and height bec thehy are depended on parent div-->
 </body>
 
 </html>
