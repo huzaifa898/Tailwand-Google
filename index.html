@@ -7,16 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Tailwind Google</title>
     <style>
-        #box{
+        body{
+            padding: 0;
+        }
+        #box {
             border: 1px solid brown;
             background: goldenrod;
             width: 80%;
             height: 300px;
+            font-size: 1.5em;
         }
-        #box1{
+        #box3 {
+            border: 1px solid brown;
+            background: goldenrod;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #box1 {
             border: 1px solid firebrick;
             width: 600px;
             height: 600px;
+            
+        }
+        #box2{
+            font-size: 16px;
         }
     </style>
 </head>
@@ -851,24 +866,48 @@
         <!-- This text has a fixed font size of 24 pixels -->
         This is a paragraph with a fixed font size of 24 pixels (using px).
     </div>
-     <!--what is equilent of 1 rem-->
-     <!--1 rem is equal to base font of system-->
-     <!--in system it is equal to 16px-->
-     <!-- no decmial will be in tailwind css-->
-     <div class="bg-green-900 w-32 h-32">text1</div>
-     <div class="bg-yellow-900 w-1/2">text1</div>
-     <div class="bg-white w-screen">text1</div>
-     <div class="bg-blue-700 w-2/12">text1</div>
+    <!--what is equilent of 1 rem-->
+    <!--1 rem is equal to base font of system-->
+    <!--in system it is equal to 16px-->
+    <!-- no decmial will be in tailwind css-->
+    <div class="bg-green-900 w-32 h-32">text1</div>
+    <div class="bg-yellow-900 w-1/2">text1</div>
+    <div class="bg-white w-screen">text1</div>
+    <div class="bg-blue-700 w-2/12">text1</div>
 
 
-     <!-- CSS units -->
+    <!-- CSS units -->
 
-     <div id="box"></div>
-     <!--realtive example-->
-      <div id="box1">
+    <div id="box"></div>
+    <!--realtive example-->
+    <div id="box1">
         <div id="box"></div>
-      </div> 
-      <!--it will takes the parent widtg and height bec thehy are depended on parent div-->
+    </div>
+    <!--it will takes the parent widtg and height bec thehy are depended on parent div-->
+
+    <!--em unit concept-->
+    <div id="box2">
+        <div id="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, possimus pariatur quae ipsum harum
+            quidem cupiditate est odit ea, voluptatem sapiente quibusdam similique officiis excepturi illo architecto
+            veritatis. At ab molestias, ad deleniti minus asperiores suscipit minima, eveniet dolor hic doloremque
+            dignissimos obcaecati! Dolor delectus beatae culpa voluptates commodi dolorem hic, corporis fugit
+            praesentium earum minima, rerum magnam! Mollitia quam ut iste, officiis excepturi facere? Iusto, molestiae.
+            Voluptatibus aperiam explicabo ducimus cumque libero minus eos quasi, fuga nobis corrupti modi expedita, rem
+            dolorum tenetur sequi incidunt delectus provident laudantium repellendus hic. Doloremque illo maiores illum
+            eos nulla cum voluptatum vitae?
+        </div>
+    </div>
+    <div id="box3">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, possimus pariatur quae ipsum harum
+        quidem cupiditate est odit ea, voluptatem sapiente quibusdam similique officiis excepturi illo architecto
+        veritatis. At ab molestias, ad deleniti minus asperiores suscipit minima, eveniet dolor hic doloremque
+        dignissimos obcaecati! Dolor delectus beatae culpa voluptates commodi dolorem hic, corporis fugit
+        praesentium earum minima, rerum magnam! Mollitia quam ut iste, officiis excepturi facere? Iusto, molestiae.
+        Voluptatibus aperiam explicabo ducimus cumque libero minus eos quasi, fuga nobis corrupti modi expedita, rem
+        dolorum tenetur sequi incidunt delectus provident laudantium repellendus hic. Doloremque illo maiores illum
+        eos nulla cum voluptatum vitae?
+    </div>
 </body>
 
 </html>
