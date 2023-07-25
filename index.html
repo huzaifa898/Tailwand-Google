@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Tailwind Google</title>
     <style>
-        body{
+        body {
             padding: 0;
         }
+
         #box {
             border: 1px solid brown;
             background: goldenrod;
@@ -17,6 +18,7 @@
             height: 300px;
             font-size: 1.5em;
         }
+
         #box3 {
             border: 1px solid brown;
             background: goldenrod;
@@ -28,10 +30,22 @@
             border: 1px solid firebrick;
             width: 600px;
             height: 600px;
-            
+
         }
-        #box2{
+
+        #box2 {
             font-size: 16px;
+        }
+
+        .clamp-lines {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+
+            /* Set the number of lines you want to display */
+
+            -webkit-line-clamp: 3;
+            line-clamp: 3
         }
     </style>
 </head>
@@ -908,6 +922,17 @@
         dolorum tenetur sequi incidunt delectus provident laudantium repellendus hic. Doloremque illo maiores illum
         eos nulla cum voluptatum vitae?
     </div>
+    <!-- line clamping through css-->
+    <div class="clamp-lines">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus aut unde expedita, temporibus minus repellat?
+        Neque non ad alias, ipsum animi nulla ipsa, dolorem id ex odit eaque tempora rem.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis perspiciatis asperiores vitae blanditiis
+        delectus alias, eos fugit perferendis exercitationem totam assumenda, id quidem enim quod, omnis nesciunt iusto
+        facilis in dignissimos! Quaerat similique alias quod non porro obcaecati exercitationem eius.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime excepturi omnis quis accusantium rem tenetur,
+        necessitatibus quo. Est, adipisci incidunt.
+    </div>
+
 </body>
 
 </html>
